@@ -3,6 +3,8 @@ This project provides the basis for running a remote R server using the raspberr
 
 The current process using a REST-based API to enable statistical operations by webapps and other mobile applications which cannot (or don't want to) communicate with R locally.
 
+Communication with the server (once vetted and secured, of course), allows curl-based communication between your current pages/server and the R-server.
+
 ### Version
 1.0.0.0 alpha
 
@@ -20,7 +22,11 @@ You will need the Rserve service running on a local R instance as well as a linu
 Want to contribute? Great! Emails or PM's are welcome.
 
 ### Todos
- - REST API implementation
+ - REST API 
+ - Guide for securing Pi 3
+ - CSRF protection
+ - CORS setup
+ - Tunneling (optional)
 
 ### License
 ----
